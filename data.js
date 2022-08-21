@@ -1,4 +1,4 @@
-fetch('')
+fetch('https://github.com/Yash-661/cloud/blob/main/data.json')
     .then((response) => {
             return response.json()
         })
